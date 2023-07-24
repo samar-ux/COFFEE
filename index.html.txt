@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+ <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>COFFEE</title>
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/all.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            
+        </head>
+        <style>
+       
+          body{height: 100vh;
+         width: 1600px;
+background-color: 0fa3b1;
+margin: 0;}
+
+
+.run {
+         width: 70px;
+         height: 400px;
+         background-color: #70d6ff;
+         position: fixed;
+        display:block;
+         top: 100px;
+         opacity: 0.9;
+
+}
+.in {color: #583101;
+             font-size: 50px;
+padding: 6px;
+padding-top: 10px;
+}
+.a {color: #583101;
+}
+        .content {height: 200px;
+         width: 100%;
+         background-color: white; 
+padding-top: 50px;
+position: relative;
+}
+.inter-title {font-size: 40px;
+       margin-left: 600px;
+color: #402B0D;
+}          
+ .inter-title1 {
+       margin-left: 670px;
+color: #402B0D;
+}  
+.inter {height: 300px;
+         width: 50%;
+ float: left;
+background-color: white; 
+color: #402B0D;
+font-size: 30px;
+margin-left: 0;
+padding-left: 70px;
+}   
+.inter-btn {height: 80px;
+         width: 250px;
+ border-radius: 20px;
+background-color: #583101; 
+color: white; 
+font-size: 30px;
+}
+**********************
+.imgs {
+top: 300px;
+right: 50px;
+position: absolute;
+
+} 
+.imgg {margin-left:1150px;
+position: absolute;
+top: 270px;
+left: 20px;
+
+} 
+.inter-img1 {height: 200px;
+         width: 270px;
+ border: 1px solid ;
+ border-radius: 20px;
+position: absolute;
+
+}
+.inter-img2 {height: 200px;
+         width: 270px;
+ border: 1px solid ;
+ border-radius: 20px;
+top: 470px;
+left: 900px;
+position: absolute;
+}
+.inter-img3 {height: 200px;
+         width: 270px;
+ border: 1px solid ;
+border-radius: 20px;
+top: 220px;
+left: 50px;
+position: absolute;
+}
+.inter-img4 {height: 200px;
+         width: 270px;
+ border: 1px solid ;
+ border-radius: 20px;
+left: 10px;
+position: absolute;
+}
+.inter-img1 {
+    margin:0 20px;
+    transition: transform 0.5s;
+}
+.inter-img1:hover{
+    transform: scale(1.1);
+}
+.inter-img2 {
+    margin:0 20px;
+    transition: transform 0.5s;
+}
+.inter-img2:hover{
+    transform: scale(1.1);
+}
+.inter-img3 {
+    margin:0 20px;
+    transition: transform 0.5s;
+}
+.inter-img3:hover{
+    transform: scale(1.1);
+}
+.inter-img4 {
+    margin:0 20px;
+    transition: transform 0.5s;
+}
+.inter-img4:hover{
+    transform: scale(1.1);
+}
+/***************/
+.menu {width: 100%;
+      height: 1000px;
+background-color: #583101;
+margin-top: 500px;
+padding-left: 50px;
+}
+.menu-title {color: white;
+margin-left: 660px;
+padding-top: 30px;
+font-size: 30px;
+}
+
+.var1 { color: white;
+font-size: 70px;
+margin-top: 0;
+padding: 10px;
+}
+.var2 { color: white;
+font-size: 70px;
+padding: 10px;
+
+}
+.son1 {color: white;
+padding-left: 30px;
+margin-top: 10px;
+float: left;
+
+
+}
+.son1-img {height: 120px;
+         width: 120px;
+ border: 1px solid ;
+border-radius: 50%;
+margin-top: 0;
+}
+.son1-img {
+    margin:0 20px;
+    transition: transform 0.5s;
+}
+.son1-img:hover{
+    transform: scale(1.1);
+}
+.son1-p { font-size: 14px;
+}
+/*******************/
+.our {width: 100%;
+      height: 450px;
+     background-color: #583101;
+background-size: cover;
+      margin-top:  450px;  
+padding-top: 10px;
+     position: relative; 
+z-index: -1;
+}
+.OUR-title {color: white;
+margin-left: 700px;
+padding-top: 2px;
+font-size: 30px;
+}
+.line {background-color: white;
+width: 100px;
+      height: 10px;
+margin-left: 770px;
+border: 1px solid ;
+border-radius: 5px;
+}
+.line {
+    transition: transform 0.5s;
+}
+.line:hover{
+    transform: scale(1.1);
+}
+.jk {color: white;
+top: 1910px;
+position: absolute;
+z-index: 2;
+}
+.our1 {float: left;
+}
+.our1-img {height: 170px;
+         width: 170px;
+ border: 1px solid ;
+border-radius: 50%;
+margin-left: 250px;
+
+}
+.our1-img {
+    transition: transform 0.5s;
+}
+.our1-img:hover{
+    transform: scale(1.1);
+}
+.our1-tit { font-size: 25px;
+margin-left: 280px;
+}
+.our1-p { font-size: 20px;
+margin-left: 180px;
+}
+
+
+/**************/
+.pesn { width: 100%;
+      height: 450px;
+     background-image: url("images/t.jpg");
+     background-attachment: fixed;
+background-size: cover;
+      margin-top:  20px;  
+     position: relative; 
+}
+
+.pesn-overlay {  width: 100%;
+                       height: 450px;
+                      margin-left: 0;
+                       position: absolute;
+                        top: 0; 
+                          left: 0; 
+                             right: 0;
+                               bottem: 0; 
+       background-color: rgba(0, 0, 0, 0.7);
+         
+}
+.fan {color: #70d6ff;
+   width: 55px;
+  height: 30px;
+ font-size: 50px;
+padding-left: 25px;
+margin-top: 100px;
+}
+
+
+
+.pay { text-align: center;
+           display: inline-block;
+            padding: 55px;
+            color: #70d6ff;
+             font-size: 20px;
+padding-left: 200px;
+     
+}
+.end-p { 
+                margin-left: 550px;
+                margin-top: 380px;
+            position: absolute; 
+ color: #70d6ff;
+             font-size: 30px;
+}
+
+********************
+        </style>
+        <body>
+
+            <div class="content"  >
+<h1 class="inter-title">Starbucks Coffee Company</h1>
+              <h4 class="inter-title1">Competition will take place from 24 to 26 November</h4>
+</div>
+            
+            <div class=" inter">
+            <p class="inter-par">
+“The meta-analysis from 2017Trusted Source concluded that it is “generally safe” for most people to consume three to four cups of coffee per day and that doing so may actually reduce the risk of certain health conditions.
+
+The study authors warned, however, that smoking may cancel out any benefits of drinking coffee.
+
+Caffeine is an important feature of coffee, but coffee contains many compounds, and there are different ways of drinking it. This makes it difficult to determine exactly how coffee affects a person and which components have benefits and risks.
+</p>
+            <button class="inter-btn">show more</button>
+            </div>
+
+
+<div class="imgs">
+       <img class="inter-img1" src="images/J.jpg" >
+         <img class="inter-img2" src="images/K.jpg" >
+</div>
+       <div class="imgg">
+       <img class="inter-img3" src="images/J.jpg" >
+         <img class="inter-img4" src="images/K.jpg" >
+</div>  
+               
+<div class="menu">
+<h2 class="menu-title">HOT&COOL COFFEE</h2>
+<hr>
+<h3 class="var1">COOL</h3>
+<div class="son1"> 
+          <img class="son1-img" src="images/co1.jpg" >
+<h3 class="son1-tit">ice coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+                   <div class="son1"> 
+                     <img class="son1-img" src="images/co2.jpg" >
+<h3 class="son1-tit">ice coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+<div class="son1"> 
+                     <img class="son1-img" src="images/co3.jpg" >
+<h3 class="son1-tit">ice coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+
+<div class="son1"> 
+                     <img class="son1-img" src="images/co4.jpg" >
+<h3 class="son1-tit">ice coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+
+      <div class="son1"> 
+                     <img class="son1-img" src="images/co5.jpg" >
+<h3 class="son1-tit">ice coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>      
+
+<div class="son1"> 
+                     <img class="son1-img" src="images/co6.jpg" >
+<h3 class="son1-tit">ice coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+
+
+
+      <h3 class="var2">HOT</h3>
+<div class="son1"> 
+          <img class="son1-img" src="images/hot1.jpg" >
+<h3 class="son1-tit">hot coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+                   <div class="son1"> 
+                     <img class="son1-img" src="images/hot2.jpg" >
+<h3 class="son1-tit">hot coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+<div class="son1"> 
+                     <img class="son1-img" src="images/hot3.jpg" >
+<h3 class="son1-tit">hot coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+
+<div class="son1"> 
+                     <img class="son1-img" src="images/hot4.jpg" >
+<h3 class="son1-tit">hot coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+
+      <div class="son1"> 
+                     <img class="son1-img" src="images/hot5.jpg" >
+<h3 class="son1-tit">hot coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>      
+
+<div class="son1"> 
+                     <img class="son1-img" src="images/hot6.jpg" >
+<h3 class="son1-tit">hot coffee</h3>
+            <p class="son1-p">it is prepared from roasted coffee beans</p>
+  </div>
+        
+
+<div class="our">
+<h2 class="OUR-title">Our Spical Coffee</h2>
+<hr class="line">
+</div> 
+
+<div class="jk">
+<div class="our1"> 
+          <img class="our1-img" src="images/bre.jpg" >
+<h3 class="our1-tit">Hazelnut coffee</h3>
+            <p class="our1-p">it is prepared from roasted coffee beans</p>
+  </div>
+
+<div class="our1"> 
+          <img class="our1-img" src="images/blk.jpg" >
+<h3 class="our1-tit">black coffee</h3>
+            <p class="our1-p">it is prepared from roasted coffee beans</p>
+  </div>
+
+<div class="our1"> 
+          <img class="our1-img" src="images/wco.jpg" >
+<h3 class="our1-tit">white coffee</h3>
+            <p class="our1-p">it is prepared from roasted coffee beans</p>
+      </div>
+ </div>
+
+
+          
+<div class="pesn">
+<div class="pesn-overlay">
+                      <div class="pay">
+<div class="fan"><i class="fas fa-users"></i></div>
+                              <h1>451k</h1>
+                                    <span>happy clients</span>
+                                         </div>
+                            <div class="pay">
+<div class="fan"><i class="fas fa-trophy"></i></div>
+                                   <h1>12</h1>
+                                      <span>awards won</span>
+                                         </div>
+                                   <div class="pay">
+<div class="fan"><i class="fas fa-coffee"></i></div>
+                                           <h1>154k</h1>
+                                                 <span>communication</span>
+                                                    </div>
+                                           <div class="pay">
+<div class="fan"><i class="fas fa-phone"></i></div>
+                                           <h1>45</h1>
+                                                 <span>support</span>
+                                                    </div>
+                         </div>
+<p class="end-p">COPYRIGHT © 2023 . Samar Mohamed</p>
+</div>
+
+
+
+
+</div>  
+
+<div class="run">
+<div class="in"><a href="#"><i class="fab fa-facebook"></i></a></div>   
+<div class="in"><a href="#"><i class="fab fa-twitter"></i></a></div>   
+<div class="in"><a href="#"><i class="fab fa-instagram-square"></i></a></div>   
+<div class="in"><a href="#"><i class="fab fa-youtube"></i></a></div>   
+<div class="in"><a href="#"><i class="fab fa-linkedin"></i></a></div>    
+</div>            
+        
+     
+                
+        </body>
+            
+            
+</html>
